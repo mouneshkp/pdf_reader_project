@@ -31,10 +31,14 @@ for file_num in range(1, 6):
         # Append combined data to CSV data list
         csv_data.append(combined_data)
 
+
+
 # Write CSV data to a file
 with open('output_data.csv', 'w', newline='') as file:
     writer = csv.writer(file)
     writer.writerows(csv_data)
 
 
-    
+
+
+
